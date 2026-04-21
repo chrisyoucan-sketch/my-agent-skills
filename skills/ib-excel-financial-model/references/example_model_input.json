@@ -1,0 +1,133 @@
+{
+  "company": {
+    "name": "Northwind Industrial Tech",
+    "ticker": "NWT US",
+    "currency": "CNY",
+    "unit": "CNY_mn"
+  },
+  "quarters": [
+    "2025Q1A",
+    "2025Q2A",
+    "2025Q3A",
+    "2025Q4A",
+    "2026Q1E",
+    "2026Q2E",
+    "2026Q3E",
+    "2026Q4E"
+  ],
+  "forecast_start": "2026Q1E",
+  "segments": [
+    {
+      "name": "Components",
+      "revenue_model": "volume_price",
+      "drivers": {
+        "volume": {
+          "unit": "k units",
+          "benchmark": "Shipment growth vs peer component suppliers",
+          "rationale": "Base case assumes demand recovery with no full inventory snapback",
+          "values": [320, 335, 345, 360, 372, 386, 398, 412]
+        },
+        "price": {
+          "unit": "CNY per unit",
+          "benchmark": "Realized ASP from company disclosures and mix trend",
+          "rationale": "Small mix-led improvement offsets normal pricing pressure",
+          "values": [1.82, 1.84, 1.86, 1.89, 1.91, 1.93, 1.95, 1.97]
+        }
+      },
+      "cost_model": "gross_margin",
+      "cost_assumptions": {
+        "gross_margin": {
+          "unit": "%",
+          "benchmark": "Peer gross margin range 29%-33%",
+          "rationale": "Company tracks toward high end on utilization and mix, but not above the best peer",
+          "values": [0.294, 0.298, 0.301, 0.305, 0.308, 0.312, 0.315, 0.318]
+        }
+      }
+    },
+    {
+      "name": "Service Contracts",
+      "revenue_model": "users_arpu",
+      "drivers": {
+        "users": {
+          "unit": "k subscribed devices",
+          "benchmark": "Installed base conversion and retention metrics",
+          "rationale": "Attach rate expands as new hardware cohorts renew service plans",
+          "values": [420, 435, 447, 460, 476, 492, 508, 524]
+        },
+        "arpu": {
+          "unit": "CNY per device",
+          "benchmark": "Peer subscription pricing and company package mix",
+          "rationale": "ARPU inches up on premium plan mix, not from broad price hikes",
+          "values": [0.42, 0.42, 0.43, 0.43, 0.44, 0.44, 0.45, 0.45]
+        }
+      },
+      "cost_model": "gross_margin",
+      "cost_assumptions": {
+        "gross_margin": {
+          "unit": "%",
+          "benchmark": "Service gross margin range 58%-64%",
+          "rationale": "Scale and retention improve contribution margin gradually",
+          "values": [0.58, 0.585, 0.59, 0.592, 0.595, 0.598, 0.6, 0.602]
+        }
+      }
+    }
+  ],
+  "company_assumptions": {
+    "sga_ratio": {
+      "unit": "%",
+      "benchmark": "Historical SG&A ratio and peer opex discipline",
+      "rationale": "Sales support grows slower than revenue once channel staffing normalizes",
+      "values": [0.084, 0.083, 0.082, 0.082, 0.081, 0.08, 0.079, 0.079]
+    },
+    "rnd_ratio": {
+      "unit": "%",
+      "benchmark": "Management roadmap and prior innovation intensity",
+      "rationale": "R&D stays elevated to support product refreshes",
+      "values": [0.056, 0.056, 0.055, 0.055, 0.055, 0.054, 0.054, 0.054]
+    },
+    "other_opex_ratio": {
+      "unit": "%",
+      "benchmark": "Stable support cost run rate",
+      "rationale": "No material step-up expected beyond inflation",
+      "values": [0.011, 0.011, 0.011, 0.011, 0.011, 0.011, 0.011, 0.011]
+    },
+    "non_operating": {
+      "unit": "CNY_mn",
+      "benchmark": "Interest income and other non-op items",
+      "rationale": "Held near recent run rate",
+      "values": [6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0]
+    },
+    "tax_rate": {
+      "unit": "%",
+      "benchmark": "Historical effective tax rate 15%-17%",
+      "rationale": "Uses midpoint because there is no major jurisdiction mix shift",
+      "values": [0.16, 0.16, 0.16, 0.16, 0.16, 0.16, 0.16, 0.16]
+    },
+    "diluted_shares": {
+      "unit": "mn shares",
+      "benchmark": "Latest diluted share count plus minor SBC dilution",
+      "rationale": "Share count increases modestly through the forecast",
+      "values": [210, 210, 211, 211, 212, 212, 213, 213]
+    }
+  },
+  "benchmarks": [
+    {
+      "type": "peer",
+      "entity": "Components",
+      "metric": "Gross margin",
+      "reference_value": "29%-33%",
+      "source": "Peer component supplier filings",
+      "date": "2026-03-15",
+      "note": "Base case moves from 30.8% to 31.8% on utilization recovery"
+    },
+    {
+      "type": "industry",
+      "entity": "Service Contracts",
+      "metric": "ARPU",
+      "reference_value": "0.43-0.47 CNY per device",
+      "source": "Peer service plan pricing",
+      "date": "2026-03-18",
+      "note": "Base case remains near low end due to limited broad-based repricing"
+    }
+  ]
+}

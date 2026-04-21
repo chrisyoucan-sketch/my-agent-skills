@@ -1,0 +1,72 @@
+{
+  "company": {
+    "ticker": "300308.SZ",
+    "name": "Zhongji Innolight",
+    "market": "A"
+  },
+  "note": "Illustrative assumptions for workflow demo only; replace with latest disclosed financials and consensus before production use.",
+  "base_year": {
+    "year": "FY2025A",
+    "currency": "CNY_mn",
+    "revenue": 26500.0,
+    "net_profit": 5100.0,
+    "eps_diluted": 6.2,
+    "shares_diluted": 822.0
+  },
+  "assumptions_by_year": [
+    {
+      "year": "FY2026E",
+      "growth_components": {
+        "volume_growth": 0.18,
+        "price_growth": 0.02,
+        "share_newbiz_contribution": 0.05,
+        "churn_headwind": 0.03
+      },
+      "gross_margin": 0.345,
+      "sga_ratio": 0.06,
+      "rnd_ratio": 0.08,
+      "other_opex_ratio": 0.01,
+      "tax_rate": 0.17,
+      "non_operating": 20.0,
+      "shares_diluted": 825.0,
+      "cfo_margin": 0.22,
+      "capex_ratio": 0.10
+    },
+    {
+      "year": "FY2027E",
+      "growth_components": {
+        "volume_growth": 0.12,
+        "price_growth": 0.01,
+        "share_newbiz_contribution": 0.03,
+        "churn_headwind": 0.02
+      },
+      "gross_margin": 0.35,
+      "sga_ratio": 0.058,
+      "rnd_ratio": 0.078,
+      "other_opex_ratio": 0.01,
+      "tax_rate": 0.17,
+      "non_operating": 25.0,
+      "shares_diluted": 828.0,
+      "cfo_margin": 0.22,
+      "capex_ratio": 0.095
+    },
+    {
+      "year": "FY2028E",
+      "growth_components": {
+        "volume_growth": 0.09,
+        "price_growth": 0.01,
+        "share_newbiz_contribution": 0.02,
+        "churn_headwind": 0.02
+      },
+      "gross_margin": 0.352,
+      "sga_ratio": 0.056,
+      "rnd_ratio": 0.076,
+      "other_opex_ratio": 0.01,
+      "tax_rate": 0.17,
+      "non_operating": 30.0,
+      "shares_diluted": 830.0,
+      "cfo_margin": 0.22,
+      "capex_ratio": 0.09
+    }
+  ]
+}

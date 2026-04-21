@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consulting Deck Builder"
+  short_description: "Build consultant-ready deck stories"
+  default_prompt: "Build a consultant-style deck from my materials, then review the titles, storyline, and slide content before preparing a PPT build brief."

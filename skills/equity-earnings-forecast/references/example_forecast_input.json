@@ -1,0 +1,40 @@
+{
+  "company": {
+    "ticker": "DEMO-US",
+    "name": "Demo Industrials Inc.",
+    "market": "US"
+  },
+  "target_period": "2026Q1",
+  "currency": "USD",
+  "segments": [
+    {"name": "Core", "volume": 120.0, "price": 3.4, "cogs_ratio": 0.58},
+    {"name": "Services", "volume": 75.0, "price": 2.6, "cogs_ratio": 0.42}
+  ],
+  "opex": {
+    "sga_ratio": 0.11,
+    "rnd_ratio": 0.06,
+    "other_opex_ratio": 0.015
+  },
+  "non_operating": {"amount": -4.0},
+  "tax_rate": 0.22,
+  "shares_diluted": 210.0,
+  "cfo": 180.0,
+  "capex": 52.0,
+  "consensus": {
+    "revenue": 640.0,
+    "net_profit": 81.0,
+    "eps": 0.38,
+    "timestamp": "2026-03-01"
+  },
+  "guidance": {
+    "revenue_low": 620.0,
+    "revenue_high": 660.0,
+    "timestamp": "2026-02-15"
+  },
+  "history": [
+    {"period": "2025Q1", "revenue": 595.0, "net_profit": 73.0, "eps": 0.35},
+    {"period": "2025Q2", "revenue": 610.0, "net_profit": 77.0, "eps": 0.36},
+    {"period": "2025Q3", "revenue": 628.0, "net_profit": 79.0, "eps": 0.37},
+    {"period": "2025Q4", "revenue": 636.0, "net_profit": 80.0, "eps": 0.38}
+  ]
+}

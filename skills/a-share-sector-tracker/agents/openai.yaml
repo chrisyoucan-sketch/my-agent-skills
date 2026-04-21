@@ -1,0 +1,4 @@
+interface:
+  display_name: "A-Share Sector Tracker"
+  short_description: "Track A-share sector flow, trend, and leaders."
+  default_prompt: "Use $a-share-sector-tracker to rank A-share industry and concept sectors with Wind data, main-force inflow, breadth, rotation, and leader diagnostics."

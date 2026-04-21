@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-06",
+  "provider": "Wind",
+  "benchmark": {
+    "name": "All A",
+    "return_1d": 0.011,
+    "return_5d": 0.029,
+    "return_20d": 0.076
+  },
+  "sectors": [
+    {
+      "sector_code": "IND-SEM",
+      "sector_name": "Semiconductors",
+      "taxonomy": "industry",
+      "board_source": "Wind Industry",
+      "daily_returns_history": [0.004, 0.01, 0.008, 0.019, 0.009, 0.018, -0.009, 0.019, 0.018, 0.009, 0.009, 0.018, 0.009, 0.009, 0.017, 0.008, 0.017, 0.016, 0.016, 0.032]
+    },
+    {
+      "sector_code": "CON-ROB",
+      "sector_name": "Robotics",
+      "taxonomy": "concept",
+      "board_source": "Wind Concept",
+      "daily_returns_history": [0.006, 0.01, -0.01, 0.02, 0.01, 0.01, 0.01, -0.01, 0.019, 0.01, 0.009, 0.009, 0.019, 0.009, 0.009, 0.009, 0.009, 0.018, 0.009, 0.024]
+    },
+    {
+      "sector_code": "IND-PWR",
+      "sector_name": "Power Equipment",
+      "taxonomy": "industry",
+      "board_source": "Wind Industry",
+      "daily_returns_history": [0.008, 0.008, 0.008, -0.008, 0.008, 0.008, -0.008, -0.008, 0.008, 0.008, 0.008, -0.008, 0.008, 0.008, -0.008, -0.008, 0.008, -0.008, -0.008, -0.004]
+    }
+  ]
+}

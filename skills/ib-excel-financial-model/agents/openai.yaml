@@ -1,0 +1,4 @@
+interface:
+  display_name: "IB Excel Financial Model"
+  short_description: "Build formula-linked quarterly and annual financial model workbooks."
+  default_prompt: "Use $ib-excel-financial-model to build an investment-banking-style Excel model with driver-based revenue, benchmark-backed assumptions, and quarterly plus annual forecasts."

@@ -1,0 +1,73 @@
+{
+  "page": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in",
+    "margin": 0.6
+  },
+  "slides": [
+    {
+      "id": "slide-1",
+      "type": "two-column",
+      "title": "Product Update",
+      "elements": [
+        {
+          "id": "title",
+          "kind": "title",
+          "text_role": "title",
+          "x": 0.8,
+          "y": 0.65,
+          "w": 11.2,
+          "h": 0.65,
+          "text": "Product Update",
+          "font_family": "Microsoft YaHei",
+          "font_size": 28,
+          "line_height": 1.2,
+          "padding": 0.08
+        },
+        {
+          "id": "left-card",
+          "kind": "card",
+          "text_role": "body",
+          "x": 1.0,
+          "y": 1.8,
+          "w": 5.1,
+          "h": 3.35,
+          "text": "Market summary\\n- Revenue up 12%\\n- Retention improved\\n- Pipeline quality stable",
+          "font_family": "Microsoft YaHei",
+          "font_size": 17,
+          "line_height": 1.25,
+          "padding": 0.18
+        },
+        {
+          "id": "right-card",
+          "kind": "card",
+          "text_role": "body",
+          "x": 7.1,
+          "y": 1.8,
+          "w": 5.1,
+          "h": 3.35,
+          "text": "Execution priorities\\n- Reduce cycle time\\n- Improve activation\\n- Expand partner channel",
+          "font_family": "Microsoft YaHei",
+          "font_size": 17,
+          "line_height": 1.25,
+          "padding": 0.18
+        },
+        {
+          "id": "note",
+          "kind": "text",
+          "text_role": "note",
+          "x": 1.0,
+          "y": 5.75,
+          "w": 11.2,
+          "h": 0.28,
+          "text": "Internal draft",
+          "font_family": "Arial",
+          "font_size": 11,
+          "line_height": 1.15,
+          "padding": 0.02
+        }
+      ]
+    }
+  ]
+}

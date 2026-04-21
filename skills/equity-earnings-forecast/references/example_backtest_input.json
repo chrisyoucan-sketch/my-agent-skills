@@ -1,0 +1,165 @@
+{
+  "company": {
+    "ticker": "DEMO-US",
+    "name": "Demo Industrials Inc.",
+    "market": "US"
+  },
+  "quarters": [
+    {
+      "period": "2023Q1",
+      "segments": [
+        {"name": "Core", "volume": 100, "price": 3.0, "cogs_ratio": 0.60},
+        {"name": "Services", "volume": 60, "price": 2.1, "cogs_ratio": 0.43}
+      ],
+      "opex": {"sga_ratio": 0.12, "rnd_ratio": 0.06, "other_opex_ratio": 0.02},
+      "tax_rate": 0.23,
+      "shares_diluted": 220,
+      "consensus": {"revenue": 430, "timestamp": "2023-02-20"},
+      "guidance": {"revenue_low": 420, "revenue_high": 440, "timestamp": "2023-01-25"},
+      "actuals": {"revenue": 436, "net_profit": 45, "eps_diluted": 0.205}
+    },
+    {
+      "period": "2023Q2",
+      "segments": [
+        {"name": "Core", "volume": 103, "price": 3.05, "cogs_ratio": 0.60},
+        {"name": "Services", "volume": 62, "price": 2.12, "cogs_ratio": 0.43}
+      ],
+      "opex": {"sga_ratio": 0.12, "rnd_ratio": 0.06, "other_opex_ratio": 0.02},
+      "tax_rate": 0.23,
+      "shares_diluted": 219,
+      "consensus": {"revenue": 448, "timestamp": "2023-05-20"},
+      "guidance": {"revenue_low": 440, "revenue_high": 455, "timestamp": "2023-04-25"},
+      "actuals": {"revenue": 451, "net_profit": 47, "eps_diluted": 0.215}
+    },
+    {
+      "period": "2023Q3",
+      "segments": [
+        {"name": "Core", "volume": 106, "price": 3.10, "cogs_ratio": 0.595},
+        {"name": "Services", "volume": 63, "price": 2.15, "cogs_ratio": 0.425}
+      ],
+      "opex": {"sga_ratio": 0.119, "rnd_ratio": 0.06, "other_opex_ratio": 0.019},
+      "tax_rate": 0.225,
+      "shares_diluted": 218,
+      "consensus": {"revenue": 468, "timestamp": "2023-08-21"},
+      "guidance": {"revenue_low": 460, "revenue_high": 474, "timestamp": "2023-07-26"},
+      "actuals": {"revenue": 470, "net_profit": 50, "eps_diluted": 0.229}
+    },
+    {
+      "period": "2023Q4",
+      "segments": [
+        {"name": "Core", "volume": 108, "price": 3.15, "cogs_ratio": 0.59},
+        {"name": "Services", "volume": 66, "price": 2.18, "cogs_ratio": 0.42}
+      ],
+      "opex": {"sga_ratio": 0.118, "rnd_ratio": 0.059, "other_opex_ratio": 0.019},
+      "tax_rate": 0.225,
+      "shares_diluted": 217,
+      "consensus": {"revenue": 492, "timestamp": "2023-11-20"},
+      "guidance": {"revenue_low": 485, "revenue_high": 500, "timestamp": "2023-10-25"},
+      "actuals": {"revenue": 495, "net_profit": 54, "eps_diluted": 0.249}
+    },
+    {
+      "period": "2024Q1",
+      "segments": [
+        {"name": "Core", "volume": 110, "price": 3.2, "cogs_ratio": 0.59},
+        {"name": "Services", "volume": 68, "price": 2.2, "cogs_ratio": 0.42}
+      ],
+      "opex": {"sga_ratio": 0.117, "rnd_ratio": 0.058, "other_opex_ratio": 0.018},
+      "tax_rate": 0.223,
+      "shares_diluted": 216,
+      "consensus": {"revenue": 515, "timestamp": "2024-02-20"},
+      "guidance": {"revenue_low": 508, "revenue_high": 522, "timestamp": "2024-01-26"},
+      "actuals": {"revenue": 518, "net_profit": 57, "eps_diluted": 0.264}
+    },
+    {
+      "period": "2024Q2",
+      "segments": [
+        {"name": "Core", "volume": 113, "price": 3.22, "cogs_ratio": 0.588},
+        {"name": "Services", "volume": 70, "price": 2.24, "cogs_ratio": 0.418}
+      ],
+      "opex": {"sga_ratio": 0.116, "rnd_ratio": 0.058, "other_opex_ratio": 0.018},
+      "tax_rate": 0.223,
+      "shares_diluted": 215,
+      "consensus": {"revenue": 538, "timestamp": "2024-05-21"},
+      "guidance": {"revenue_low": 530, "revenue_high": 545, "timestamp": "2024-04-25"},
+      "actuals": {"revenue": 542, "net_profit": 60, "eps_diluted": 0.279}
+    },
+    {
+      "period": "2024Q3",
+      "segments": [
+        {"name": "Core", "volume": 116, "price": 3.26, "cogs_ratio": 0.585},
+        {"name": "Services", "volume": 72, "price": 2.27, "cogs_ratio": 0.415}
+      ],
+      "opex": {"sga_ratio": 0.115, "rnd_ratio": 0.057, "other_opex_ratio": 0.017},
+      "tax_rate": 0.222,
+      "shares_diluted": 214,
+      "consensus": {"revenue": 563, "timestamp": "2024-08-20"},
+      "guidance": {"revenue_low": 555, "revenue_high": 570, "timestamp": "2024-07-25"},
+      "actuals": {"revenue": 566, "net_profit": 63, "eps_diluted": 0.294}
+    },
+    {
+      "period": "2024Q4",
+      "segments": [
+        {"name": "Core", "volume": 118, "price": 3.3, "cogs_ratio": 0.582},
+        {"name": "Services", "volume": 74, "price": 2.30, "cogs_ratio": 0.412}
+      ],
+      "opex": {"sga_ratio": 0.114, "rnd_ratio": 0.057, "other_opex_ratio": 0.017},
+      "tax_rate": 0.22,
+      "shares_diluted": 213,
+      "consensus": {"revenue": 586, "timestamp": "2024-11-20"},
+      "guidance": {"revenue_low": 578, "revenue_high": 594, "timestamp": "2024-10-24"},
+      "actuals": {"revenue": 590, "net_profit": 67, "eps_diluted": 0.314}
+    },
+    {
+      "period": "2025Q1",
+      "segments": [
+        {"name": "Core", "volume": 120, "price": 3.33, "cogs_ratio": 0.58},
+        {"name": "Services", "volume": 75, "price": 2.33, "cogs_ratio": 0.41}
+      ],
+      "opex": {"sga_ratio": 0.113, "rnd_ratio": 0.056, "other_opex_ratio": 0.016},
+      "tax_rate": 0.22,
+      "shares_diluted": 212,
+      "consensus": {"revenue": 611, "timestamp": "2025-02-20"},
+      "guidance": {"revenue_low": 602, "revenue_high": 618, "timestamp": "2025-01-24"},
+      "actuals": {"revenue": 614, "net_profit": 71, "eps_diluted": 0.335}
+    },
+    {
+      "period": "2025Q2",
+      "segments": [
+        {"name": "Core", "volume": 122, "price": 3.36, "cogs_ratio": 0.578},
+        {"name": "Services", "volume": 77, "price": 2.35, "cogs_ratio": 0.408}
+      ],
+      "opex": {"sga_ratio": 0.112, "rnd_ratio": 0.056, "other_opex_ratio": 0.016},
+      "tax_rate": 0.218,
+      "shares_diluted": 211,
+      "consensus": {"revenue": 636, "timestamp": "2025-05-20"},
+      "guidance": {"revenue_low": 627, "revenue_high": 643, "timestamp": "2025-04-25"},
+      "actuals": {"revenue": 640, "net_profit": 74, "eps_diluted": 0.351}
+    },
+    {
+      "period": "2025Q3",
+      "segments": [
+        {"name": "Core", "volume": 124, "price": 3.39, "cogs_ratio": 0.575},
+        {"name": "Services", "volume": 79, "price": 2.37, "cogs_ratio": 0.405}
+      ],
+      "opex": {"sga_ratio": 0.111, "rnd_ratio": 0.055, "other_opex_ratio": 0.015},
+      "tax_rate": 0.218,
+      "shares_diluted": 210,
+      "consensus": {"revenue": 658, "timestamp": "2025-08-20"},
+      "guidance": {"revenue_low": 650, "revenue_high": 666, "timestamp": "2025-07-24"},
+      "actuals": {"revenue": 662, "net_profit": 77, "eps_diluted": 0.367}
+    },
+    {
+      "period": "2025Q4",
+      "segments": [
+        {"name": "Core", "volume": 126, "price": 3.42, "cogs_ratio": 0.572},
+        {"name": "Services", "volume": 81, "price": 2.40, "cogs_ratio": 0.403}
+      ],
+      "opex": {"sga_ratio": 0.11, "rnd_ratio": 0.055, "other_opex_ratio": 0.015},
+      "tax_rate": 0.217,
+      "shares_diluted": 209,
+      "consensus": {"revenue": 683, "timestamp": "2025-11-20"},
+      "guidance": {"revenue_low": 674, "revenue_high": 690, "timestamp": "2025-10-24"},
+      "actuals": {"revenue": 688, "net_profit": 81, "eps_diluted": 0.388}
+    }
+  ]
+}

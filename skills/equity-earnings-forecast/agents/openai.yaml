@@ -1,0 +1,4 @@
+interface:
+  display_name: "Equity Earnings Forecast"
+  short_description: "Auditable listed-company earnings forecasting workflow."
+  default_prompt: "Use $equity-earnings-forecast to build a quarterly earnings forecast with baseline, scenarios, and backtest metrics."

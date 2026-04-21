@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Beautify Workflow"
+  short_description: "Orchestrate PPT visual design, generation, and layout QA."
+  default_prompt: "Use $ppt-beautify-workflow to create or polish a PowerPoint deck with visual exploration and layout QA."

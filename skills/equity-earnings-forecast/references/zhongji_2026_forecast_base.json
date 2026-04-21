@@ -1,0 +1,53 @@
+{
+  "company": {
+    "ticker": "300308.SZ",
+    "name": "????",
+    "market": "A"
+  },
+  "target_period": "2026FY",
+  "scenario": "base",
+  "baseline_source": "guidance_midpoint",
+  "baseline_revenue": 455.0,
+  "forecast": {
+    "revenue": 455.3963,
+    "gross_profit": 204.9283,
+    "operating_profit": 159.3887,
+    "net_profit": 132.2926,
+    "eps_diluted": 11.799515,
+    "fcf": 75.0
+  },
+  "assumptions": {
+    "scenario_multipliers": {
+      "volume": 1.0,
+      "price": 1.0,
+      "cogs_ratio_delta": 0.0,
+      "opex_ratio_delta": 0.0
+    },
+    "tax_rate": 0.17,
+    "shares_diluted": 11.2117
+  },
+  "evidence_chain": [
+    {
+      "metric": "revenue",
+      "value": 455.3963,
+      "formula": "0.5*baseline_revenue + 0.5*sum(volume*price)",
+      "source": "guidance_midpoint + segment_driver",
+      "timestamp": "2026-02-13"
+    },
+    {
+      "metric": "net_profit",
+      "value": 132.2926,
+      "formula": "(revenue-cogs-sga-rnd-other_opex+non_operating)-tax",
+      "source": "computed",
+      "timestamp": "computed"
+    },
+    {
+      "metric": "eps_diluted",
+      "value": 11.799515,
+      "formula": "net_profit / shares_diluted",
+      "source": "computed",
+      "timestamp": "computed"
+    }
+  ],
+  "disclaimer": "For research analysis only. Not investment advice."
+}

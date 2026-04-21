@@ -1,0 +1,4 @@
+interface:
+  display_name: "A-Share Technical Analysis"
+  short_description: "Diagnose one A-share stock with rules-based signals and a default annotated chart."
+  default_prompt: "Use $a-share-technical-analysis to fetch public A-share market data and assess one stock with a default daily chart, moving averages, volume, MACD, Bollinger Bands, support and resistance, volume-price rules, patterns, market context, a score, and a trading bias."

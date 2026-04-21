@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Layout Polisher"
+  short_description: "Plan and verify PowerPoint slide layouts for balance, spacing, alignment, and collision safety."
+  default_prompt: "Use $ppt-layout-polisher to choose slide structures, control content density, align slide elements, prevent overlap and overflow, reduce font fallback risk, and quality-check PowerPoint layouts before final output."
