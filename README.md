@@ -15,3 +15,9 @@ This repository mirrors the local Codex skills currently installed under `~/.cod
 3. Restart Codex.
 
 The sync script only overwrites the skill directories tracked by this repository. It does not remove unrelated skills that may already exist on the target machine.
+
+## Push to GitHub
+
+If you create an empty GitHub repository first, you can push this mirror with:
+
+`powershell -ExecutionPolicy Bypass -File .\\scripts\\add-remote-and-push.ps1 -RemoteUrl <repo-url>`
