@@ -1,6 +1,6 @@
 # Skills Manifest
 
-Mirrored from `C:\Users\86137\.codex\skills` on 2026-04-21.
+Mirrored from `C:\Users\82766\.codex\skills` on 2026-04-28.
 
 ## Included skill directories
 
@@ -28,6 +28,7 @@ Mirrored from `C:\Users\86137\.codex\skills` on 2026-04-21.
 - `pptx-from-layouts`
 - `pptx-promptadvisers`
 - `pptx-tfriedel`
+- `research-synthesis`
 
 ## Notes
 

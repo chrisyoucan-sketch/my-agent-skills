@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Synthesis"
+  short_description: "Multi-source research synthesis with evidence tables."
+  default_prompt: "Use $research-synthesis to build a Chinese research brief with a framework first, sourced findings, and an evidence table."
